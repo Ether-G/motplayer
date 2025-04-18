@@ -108,6 +108,11 @@ Windows: The executable MotionVideoPlayer.exe will be in the build\Release or bu
 9. Click "Pause" to pause playback. Click "Play" again to resume.
 10. You can open a different video file while playback is stopped or paused.
 
+## Video Example
+
+https://github.com/user-attachments/assets/c07ebc6b-47f9-4502-ad3a-c4a2c1155c56
+
+
 ## Architecture Overview
 
 The application uses a multi-threaded approach to separate the UI responsiveness from the potentially intensive video processing.
