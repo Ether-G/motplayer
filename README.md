@@ -1,8 +1,8 @@
-# Motion Video Player
+# Motplayer
 
 ## Introduction
 
-Motion Video Player is a cross-platform C++ application designed to play video files while simultaneously analyzing and visualizing motion between frames in real-time. It displays the original video alongside a dynamically generated "motion mask" video, highlighting areas where significant pixel changes occur over a configurable time delta.
+Motplayer (Motion Video Player) is a cross-platform C++ application designed to play video files while simultaneously analyzing and visualizing motion between frames in real-time. It displays the original video alongside a dynamically generated "motion mask" video, highlighting areas where significant pixel changes occur over a configurable time delta.
 
 This application leverages the power of **Qt 6** for its graphical user interface and threading, and **OpenCV 4** for video decoding and image processing (matrix operations). It uses **CMake** as its build system, facilitating compilation on Linux and Windows platforms.
 
@@ -34,8 +34,8 @@ The project uses CMake for building.
 **1. Clone the Repository (if applicable):**
 
 ```bash
-git clone <your-repo-url>
-cd MotionVideoPlayer
+git clone git@github.com:Ether-G/motplayer.git
+cd motplayer
 ```
 
 **2. Create a Build Directory:**
