@@ -6,6 +6,9 @@ Motplayer (Motion Video Player) is a cross-platform C++ application designed to 
 
 This application leverages the power of **Qt 6** for its graphical user interface and threading, and **OpenCV 4** for video decoding and image processing (matrix operations). It uses **CMake** as its build system, facilitating compilation on Linux and Windows platforms.
 
+## Future additions:
+* Tracking motion outside of rotation and translation of camera
+
 ## Features
 
 * Plays standard video file formats (using OpenCV's backend, e.g., MP4, AVI, MKV).
